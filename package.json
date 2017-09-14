@@ -1,0 +1,25 @@
+{
+  "name": "js-stdin-example",
+  "version": "1.0.0",
+  "description": "JavaScript standard input example",
+  "scripts": {
+    "start": "nodemon -w . -e js,txt -x 'npm run lint --silent && npm run exec'",
+    "exec": "cat input.txt | node index.js",
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inotom/js-stdin-example.git"
+  },
+  "keywords": [],
+  "author": "iNo <wdf7322@yahoo.co.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inotom/js-stdin-example/issues"
+  },
+  "homepage": "https://github.com/inotom/js-stdin-example#readme",
+  "devDependencies": {
+    "nodemon": "1.12.0"
+  }
+}
