@@ -21,6 +21,6 @@
   "homepage": "https://github.com/inotom/js-stdin-example#readme",
   "devDependencies": {
     "eslint": "^4.6.1",
-    "nodemon": "1.12.0"
+    "nodemon": "^1.12.0"
   }
 }
