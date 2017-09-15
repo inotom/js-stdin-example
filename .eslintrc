@@ -37,7 +37,6 @@
     "no-console": 0
   },
   "globals": {
-    "m": true
   },
   "env": {
     "es6": false,
