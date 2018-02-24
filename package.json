@@ -1,6 +1,6 @@
 {
   "name": "js-stdin-example",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JavaScript standard input example",
   "scripts": {
     "start": "nodemon -w . -e js,txt -x \"npm run lint --silent && npm run exec --silent\"",
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/inotom/js-stdin-example#readme",
   "devDependencies": {
-    "eslint": "^4.6.1",
+    "eslint": "^4.18.1",
     "jscat": "^0.0.2",
-    "nodemon": "^1.12.0"
+    "nodemon": "^1.15.1"
   }
 }

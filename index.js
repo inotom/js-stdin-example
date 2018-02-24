@@ -1,21 +1,19 @@
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
-var input = '';
+let input = '';
 
-process.stdin.on('data', function(chunk) {
-  input += chunk;
-});
+process.stdin.on('data', chunk => input += chunk);
 
-process.stdin.on('end', function() {
+process.stdin.on('end', () => {
 
-  var lines = input.trim().split('\n');
+  const lines = input.trim().split('\n');
 
   if (lines.length > 0) {
-    var max = parseInt(lines[0], 10);
+    const max = parseInt(lines[0], 10);
 
-    for (var i = 0; i < max; i++) {
-      var n = i + 1;
+    for (let i = 0; i < max; i++) {
+      const n = i + 1;
 
       if ((n % 3 === 0) && (n % 5 === 0)) {
         console.log('Fizz Buzz');
